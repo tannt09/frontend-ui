@@ -1,6 +1,6 @@
-import "./App.css";
+import "./profile_card.css";
 
-function App() {
+const ProfileCard = () => {
   return (
     <>
       <div className="profile-card">
@@ -23,7 +23,7 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default ProfileCard
